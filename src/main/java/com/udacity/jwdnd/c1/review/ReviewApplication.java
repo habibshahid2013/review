@@ -22,7 +22,7 @@ public class  ReviewApplication {
 		System.out.println("Creating uppercaseMessage bean");
 		return messageService.uppercase();
 	}
-
+//First Bean
 	@Bean
 	public String lowercaseMessage(MessageService messageService){
 		System.out.println("Creating lowercaseMessage bean");
